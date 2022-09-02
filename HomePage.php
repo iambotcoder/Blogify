@@ -1,3 +1,12 @@
+<?php
+session_start();
+if(!isset($_SESSION['loggedin'])||$_SESSION['loggedin']!=true){
+    header("location:login.php");
+    exit;
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +18,7 @@
 </head>
 
 <body>
+Welcome -<?php echo $_SESSION['userid'] ?>
     <header>HEADER</header>
     <nav>NAVBAR</nav>
     <section>
