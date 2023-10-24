@@ -1,0 +1,89 @@
+<html class="hydrated">
+
+<head>
+    <title>Dimension by HTML5 UP</title>
+    <meta charset="utf-8">
+    <style data-styles="">
+        ion-icon {
+            visibility: hidden
+        }
+
+        .hydrated {
+            visibility: inherit
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- ICON -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="vsc-initialized is-article-visible">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+
+        <!-- Main -->
+
+        <div id="main">
+            <!--addPost -->
+            <article id="addPost" class="active" style="padding-left:30px">
+                <a href="index.html">
+                    <ion-icon name="close-outline" class="close-btn" style="top:5%"></ion-icon>
+                </a>
+                <h2 class="major">Post</h2>
+                <form method="post" action="/Final/upload.php">
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Title
+                            </label>
+                            <input type="text" placeholder="Enter The Story Header" name="heading" id="name">
+                        </div>
+                        <div class="field half">
+                            <label for="email">Image</label>
+                            <input type="text" placeholder="Enter The image src" name="image-src" id="image">
+                        </div>
+                        <div class="field">
+                            <label for="message">Content</label>
+                            <textarea placeholder="Content" name="content" id="message" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Post" class="primary"></li>
+                        <li><input type="reset" value="Reset" id="resetBtn"></li>
+                    </ul>
+                </form>
+            </article>
+
+            <!-- Footer -->
+            <footer id="footer" style="display:none">
+                <p class="copyright">© Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            </footer>
+
+        </div>
+
+        <!-- BG -->
+        <div id="bg"></div>
+        <!-- Scripts -->
+        <script>
+            document.querySelector("#resetBtn").addEventListener("click", () =>
+                location.reload()
+            );
+        </script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!-- <script src="assets/js/main.js"></script> -->
+
+
+
+</body>
+
+</html>
