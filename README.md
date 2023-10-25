@@ -14,7 +14,6 @@ Blogify is an interactive forum for NITK students, teaching and non-teaching sta
 6. [What We Learned](#what-we-learned)
 7. [Future Scope](#future-scope)
 8. [Contributing](#contributing)
-9. [License](#license)
 
 ## Introduction
 
@@ -77,9 +76,5 @@ We welcome contributions from the community to improve Blogify. To contribute, p
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and test them.
 4. Submit a pull request with a detailed description of your changes.
-
-## License
-
-This project is licensed under the iambotcoder.
 
 ---
